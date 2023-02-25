@@ -1,0 +1,14 @@
+.custom_button{
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right, #5EC0E3 , #9818E9);
+    border: none;
+    cursor: pointer;
+}
+.custom_button:hover{
+    background-image: linear-gradient(to right, #9818E9,#5EC0E3);
+}

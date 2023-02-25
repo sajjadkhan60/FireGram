@@ -1,0 +1,72 @@
+.login_page {
+  background-image: linear-gradient(to right, #5ec0e3, #9818e9);
+  width: 100%;
+  height: 100vh;
+}
+.login_form_container {
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.login_form_container h3 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.login_form_container .signuplink {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.login_form_container .signuplink span {
+  color: #5ec0e3;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.login_form_container .signuplink span:hover {
+  color: black;
+  transition: 0.2s;
+}
+.login_form_container .signuplink a {
+  color: #5ec0e3;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.login_form_container .signuplink a:hover {
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.registerationsuccess {
+  width: 100%;
+  border-left: 3px solid green;
+  color: green;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #ededed;
+  padding: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.disabled {
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}

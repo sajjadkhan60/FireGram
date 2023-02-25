@@ -1,0 +1,48 @@
+.login_page{
+    background-image: linear-gradient(to right, #5EC0E3 , #9818E9);
+    width: 100%;
+    height: 100vh;
+}
+.login_form_container{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.login_form_container h3{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.login_form_container .signuplink{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login_form_container .signuplink span{
+    color:#5EC0E3;
+    cursor: pointer;
+    transition: .2s;
+}
+.login_form_container .signuplink span:hover{
+    color: black;
+    transition: .2s;
+}
+.error{
+    width: 100%;
+    border-left: 3px solid red;
+    color: red;
+    font-size: 15px;
+    background-color: #EDEDED;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
