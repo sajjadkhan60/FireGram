@@ -133,6 +133,7 @@ label {
   background-position: center center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  transition: .3s !important;
 }
 
 .all-posts .single-post .post-img img {
@@ -183,6 +184,10 @@ label {
   padding-top: 40px;
   transition: 1s;
   border-radius: 10px;
+}
+.single-post:hover{
+  scale: 1.07 !important;
+  z-index: 99998;
 }
 .single-post:hover .post-content {
   display: block !important;
